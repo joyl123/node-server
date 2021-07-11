@@ -1,0 +1,30 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "zoe-node-server",
+  "main": "index.js",
+  "bin": {
+    "fs": "./bin/www.js",
+    "file-server": "./bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyl123/node-server.git"
+  },
+  "keywords": [],
+  "author": "zoe",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "ejs": "^3.1.6",
+    "mime": "^2.5.2"
+  },
+  "bugs": {
+    "url": "https://github.com/joyl123/node-server/issues"
+  },
+  "homepage": "https://github.com/joyl123/node-server#readme"
+}
